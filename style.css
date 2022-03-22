@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap');
+
+/*
+font-family: 'Fredoka', sans-serif;
+font-weight: 300, 400 e 500;
+*/
+
+body {
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    font-family: 'Fredoka', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.tema button {
+    font-family: 'Fredoka', sans-serif;
+    align-self: flex-end;
+    font-size: 18px;
+    padding: 8px 16px;
+    background: #9890e3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    color: white;
+    border: none;
+}
+
+.tema button:hover {
+    background-color: #58508b;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    background-color: #f5fffad6;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #58508b;
+    color: #222035;
+    padding: 64px;
+}
+
+.perfil {
+    display: flex;
+
+}
+
+.perfil-foto {
+    border-radius: 50%;
+    max-height: 190px;
+    box-shadow: 0px 4px 4px #2d3a33;
+}
+
+.titulo {
+
+    line-height: 22px;
+}
+
+.titulo h1 {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.titulo h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-projetos {
+    background-color: #58508bb9;
+    color: white;
+    font-size: 18px;
+    padding: 64px;
+    border-radius: 20px;
+    margin-top: 64px;
+    line-height: 22px;
+
+}
+
+.itens-projeto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+    padding: 12px;
+}
+
+li img {
+    height: 180px;
+    width: 120px;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+li img:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.2);
+    filter: grayscale(0%) brightness(100%) blur(0px);
+}
+
+.dark {
+    background-image: linear-gradient(to top, #413c66 0%, #4c7961 100%);
+}
+
+.dark .container {
+    background-color: #1e1c2e;
+    color: #bed1c7;
+    box-shadow: 6px 6px 6px #6a6972;
+}
+
+.dark .conteudo-projetos {
+    color: #bed1c7;
+}
+
+.dark .tema button {
+    background: #58508b;
+    color: #1e1c2e;
+}
+
+.dark .tema button:hover {
+    background: #9890e3;
+}
